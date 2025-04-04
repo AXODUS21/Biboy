@@ -1,3 +1,12 @@
+import {
+  FaChartLine,
+  FaBullhorn,
+  FaPenNib,
+  FaComments,
+  FaSearch,
+  FaChartPie,
+} from "react-icons/fa";
+
 export const navigation = [
     {
         title: "What we do",
@@ -22,14 +31,6 @@ export const navigation = [
 
 ]
 
-import {
-  FaChartLine,
-  FaBullhorn,
-  FaPenNib,
-  FaComments,
-  FaSearch,
-  FaChartPie,
-} from "react-icons/fa";
 
 export const services = [
   {
@@ -79,54 +80,28 @@ export const services = [
 
 export const testimonials = [
   {
-    id: "1",
-    title: "GOOGLE",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    stars: "/assets/5-star.png",
-    clientName: "Axellerosh Lubi",
-    clientPfp: "/assets/client1.png",
-    clientPosition: "CEO @ google",
-    companyImg: "/assets/companyImg.png"
+    id: 0,
+    name: "John Doe",
+    quote:
+      "APEX transformed our brand identity and digital presence. Our online conversions have increased by 150% since working with them.",
+    initial: "/assets/logo.png",
+    company: "TechCorp CEO",
   },
   {
-    id: "2",
-    title: "FACEBOOK",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    stars: "/assets/5-star.png",
-    clientName: "Client 1",
-    clientPfp: "/assets/client2.jpg",
-    clientPosition: "CEO @ facebook",
-    companyImg: "/assets/companyImg.png"
+    id: 1,
+    name: "Michael Chen",
+    quote:
+      "The social media strategy APEX developed for us exceeded all expectations. They truly understand our audience and how to engage them.",
+    initial: "/assets/logo.png",
+    company: "FreshEats Marketing Director",
   },
   {
-    id: "3",
-    title: "SCALESET",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    stars: "/assets/4-star.png",
-    clientName: "Client 1",
-    clientPfp: "/assets/client1.png",
-    clientPosition: "CEO @ scaleset",
-    companyImg: "/assets/companyImg.png"
-  },
-  {
-    id: "4",
-    title: "BOTTLEO",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    stars: "/assets/4-star.png",
-    clientName: "Client 1",
-    clientPfp: "/assets/client1.png",
-    clientPosition: "CEO @ bottleo",
-    companyImg: "/assets/companyImg.png"
-  },
-  {
-    id: "5",
-    title: "MCDONALDS",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    stars: "/assets/5-star.png",
-    clientName: "Client 1",
-    clientPfp: "/assets/client2.jpg",
-    clientPosition: "CEO @ mcdonalds",
-    companyImg: "/assets/companyImg.png"
+    id: 2,
+    name: "Emma Williams",
+    quote:
+      "Working with APEX on our product launch was seamless. Their attention to detail and strategic approach made all the difference.",
+    initial: "/assets/logo.png",
+    company: "Luxury Retail Brand Manager",
   },
 ];
 

@@ -7,7 +7,7 @@ import Image from '@node_modules/next/image'
 
 const Hero = () => {
   return (
-    <Element name="hero" className="relative h-[90vh] bg-black text-white">
+    <Element name="hero" className="relative h-[90vh] bg-black text-white mt-20">
         <div className="absolute inset-0 z-0 opacity-30">
             <div className="absolute -left-20 -top-20 h-64 w-64 rounded-full bg-red-600 blur-3xl"></div>
             <div className="absolute bottom-0 right-0 h-96 w-96 rounded-full bg-sky-600 blur-3xl opacity-20"></div>

@@ -8,7 +8,7 @@ import CustomButton from './CustomButton'
 
 const Navbar = () => {
   return (
-    <nav className='flex justify-between items-center p-5 bg-white'>
+    <nav className='flex justify-between items-center p-5 bg-white z-50 fixed left-0 right-0 top-0'>
         <div className="">
             <Image
                 src={"/assets/banner-no-bg.png"}
