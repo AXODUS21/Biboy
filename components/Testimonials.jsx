@@ -4,12 +4,14 @@ import Image from '@node_modules/next/image';
 import React from 'react'
 import { Element } from 'react-scroll'
 import { RiStarSFill } from "react-icons/ri";
+import CustomTitle from './CustomTitle';
 
 const Testimonials = () => {
   return (
     <Element name="testimonials">
       <div className="pt-20">
         <div className="flex flex-col items-center">
+          <CustomTitle title={"Testimonials"} />
           <h1 className="page_header mb-2">
             What Our <span className="text-primary">Clients</span> Say
           </h1>

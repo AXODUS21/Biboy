@@ -3,6 +3,7 @@
 import { services } from '@constants';
 import React from 'react'
 import { Element } from 'react-scroll'
+import CustomTitle from './CustomTitle';
 
 
 const Services = () => {
@@ -10,7 +11,7 @@ const Services = () => {
     <Element>
       <div className="w-full pt-20">
         <div className="flex-col items-center flex">
-          <h2 className="">Our Services</h2>
+          <CustomTitle title={"Our Services"}/>
           <h1 className="page_header mb-1">
             What We <span className="text-primary">Offer</span>
           </h1>
