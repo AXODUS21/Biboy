@@ -34,7 +34,7 @@ const Contacts = () => {
           <div className="relative z-20 mb-5 border-2 border-default border-opacity-45 rounded-3xl overflow-hidden lg:p-7 h-[90vh]">
             <div
               className="calendly-inline-widget h-full bg-default"
-              data-url={`https://calendly.com/oscar-hansen1/meeting?hide_gdpr_banner=1&date=${today}`}
+              data-url={`https://calendly.com/lubi-axellerosh/30min?hide_gdpr_banner=1&date=${today}`}
             ></div>
           </div>
         </div>
