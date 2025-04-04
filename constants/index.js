@@ -22,100 +22,60 @@ export const navigation = [
 
 ]
 
-export const solutions = [
+import {
+  FaChartLine,
+  FaBullhorn,
+  FaPenNib,
+  FaComments,
+  FaSearch,
+  FaChartPie,
+} from "react-icons/fa";
+
+export const services = [
   {
-    id: "0",
-    title: "Done-For-You",
-    list: [
-      {
-        id: "0",
-        title: "Done-For-You",
-        paragraph:
-          "We begin by setting the foundation for the campaign by researching you ICP, and set up the general foundation for the plan",
-        detail1:
-          "Custom campaigns designed to acquire high-quality clients effortlessly",
-        detail2:
-          "Automated appointment booking system for streamlined client interactions",
-        detail3:
-          "Tailored strategies that maximize results with minimal time investment",
-        img: "/assets/check.png",
-      },
-    ],
+    id: 0,
+    title: "Digital Marketing",
+    description:
+      "Comprehensive digital marketing strategies to boost your online presence and drive conversions.",
+    icon: <FaBullhorn />,
   },
   {
-    id: "1",
-    title: "Done-With-You",
-    list: [
-      {
-        id: "1",
-        title: "Done-With-You",
-        paragraph:
-          "Learn to master appointment setting with our training and guidance. Gain the skills to run effective campaigns independently - ideal for businesses on a budget or seeking in-house control.",
-        detail1:
-          "Comprehensive training on mastering appointment setting for long-term success",
-        detail2:
-          "Step-by-step guidance to run cost-effective campaigns without external help",
-        detail3:
-          "Tools and resources designed for businesses seeking in-house control and autonomy",
-        img: "/assets/check.png",
-      },
-    ],
+    id: 1,
+    title: "Brand Strategy",
+    description:
+      "Develop a compelling brand identity that resonates with your target audience and sets you apart.",
+    icon: <FaChartLine />,
   },
   {
-    id: "2",
-    title: "Done-With-You",
-    list: [
-      {
-        id: "1",
-        title: "Done-With-You",
-        paragraph:
-          "Learn to master appointment setting with our training and guidance. Gain the skills to run effective campaigns independently - ideal for businesses on a budget or seeking in-house control.",
-        detail1:
-          "Comprehensive training on mastering appointment setting for long-term success",
-        detail2:
-          "Step-by-step guidance to run cost-effective campaigns without external help",
-        detail3:
-          "Tools and resources designed for businesses seeking in-house control and autonomy",
-        img: "/assets/check.png",
-      },
-    ],
+    id: 2,
+    title: "Content Creation",
+    description:
+      "Engaging, high-quality content that tells your story and connects with your audience.",
+    icon: <FaPenNib />,
   },
   {
-    id: "3",
-    title: "Done-With-You",
-    list: [
-      {
-        id: "1",
-        title: "Done-With-You",
-        paragraph:
-          "Learn to master appointment setting with our training and guidance. Gain the skills to run effective campaigns independently - ideal for businesses on a budget or seeking in-house control.",
-        detail1:
-          "Comprehensive training on mastering appointment setting for long-term success",
-        detail2:
-          "Step-by-step guidance to run cost-effective campaigns without external help",
-        detail3:
-          "Tools and resources designed for businesses seeking in-house control and autonomy",
-        img: "/assets/check.png",
-      },
-    ],
+    id: 3,
+    title: "Social Media Management",
+    description:
+      "Strategic social media campaigns that build community and drive engagement with your brand.",
+    icon: <FaComments />,
   },
   {
-    id: "4",
-    title: "Setting Up The Campain",
-    list: [
-      {
-        id: "2",
-        title: "Im Done With You",
-        paragraph:
-          "We manage your client acquisition - from custom campaigns to booking appointments - so you can focus on your business. Tailored for maximum results with minimal effort.",
-        detail1: "details to2",
-        detail2: "details to2",
-        detail3: "details to2",
-        img: "/assets/check.png",
-      },
-    ],
+    id: 4,
+    title: "SEO Optimization",
+    description:
+      "Improve your search engine rankings and drive organic traffic to your website.",
+    icon: <FaSearch />,
+  },
+  {
+    id: 5,
+    title: "Analytics & Reporting",
+    description:
+      "Data-driven insights to measure performance and optimize your marketing strategies.",
+    icon: <FaChartPie />,
   },
 ];
+
 
 export const testimonials = [
   {
