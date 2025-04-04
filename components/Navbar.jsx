@@ -1,15 +1,42 @@
+"use client"
+
+import { navigation } from '@constants'
 import Image from '@node_modules/next/image'
 import React from 'react'
+import { Link } from 'react-scroll'
+import CustomButton from './CustomButton'
 
 const Navbar = () => {
   return (
-    <nav>
-        <Image
-            src={"/assets/banner-no-bg.png"}
-            height={30}
-            width={120}
-            alt='logo'
-        />
+    <nav className='flex justify-between items-center p-5 bg-white'>
+        <div className="">
+            <Image
+                src={"/assets/banner-no-bg.png"}
+                height={30}
+                width={120}
+                alt='logo'
+            />
+        </div>
+
+        <div className="flex gap-8 font-semibold">
+            {navigation.map((nav) => (
+                <Link
+                    key={nav.title}
+                    spy
+                    smooth
+                    activeClass='nav-active'
+                    to={nav.url}
+                    offset={nav.offset}
+                    className='cursor-pointer'
+                >
+                    {nav.title}
+                </Link>
+            ))}
+        </div>
+
+        <div className="">
+            <CustomButton title={"Contact Us"}/>
+        </div>
     </nav>
   )
 }
