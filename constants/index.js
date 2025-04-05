@@ -15,7 +15,7 @@ export const navigation = [
     {
         title: "Services",
         url: "Services",
-        offset: -100
+        offset: -80
     },
     {
         title: "Strategy",
