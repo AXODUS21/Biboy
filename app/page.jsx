@@ -1,4 +1,5 @@
 import Contacts from '@components/Contacts'
+import Footer from '@components/Footer'
 import Hero from '@components/Hero'
 import Services from '@components/Services'
 import Strategy from '@components/Strategy'
@@ -13,6 +14,7 @@ const Main = () => {
       <Strategy />
       <Testimonials/>
       <Contacts/>
+      <Footer/>
     </div>
   )
 }

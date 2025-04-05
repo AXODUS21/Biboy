@@ -8,7 +8,7 @@ import CustomTitle from './CustomTitle';
 
 const Services = () => {
   return (
-    <Element>
+    <Element name='Services'>
       <div className="w-full pt-20">
         <div className="flex-col items-center flex">
           <CustomTitle title={"Our Services"}/>

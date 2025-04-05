@@ -12,7 +12,7 @@ const Strategy = () => {
         </div>
 
         <div className="container relative z-10 px-4 md:px-6">
-          <div className="mx-auto max-w-4xl text-center mb-10">
+          <div className="mx-auto max-w-5xl text-center mb-10">
             <div className="flex justify-center">
                 <CustomTitle title={"Our Strategy"} />
             </div>

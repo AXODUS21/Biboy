@@ -5,12 +5,21 @@ import {
   FaComments,
   FaSearch,
   FaChartPie,
+  FaFacebook,
+  FaTwitter,
+  FaInstagram,
+  FaLinkedin
 } from "react-icons/fa";
 
 export const navigation = [
     {
-        title: "What we do",
-        url: "WDO",
+        title: "Services",
+        url: "Services",
+        offset: -100
+    },
+    {
+        title: "Strategy",
+        url: "strategy",
         offset: -100
     },
     {
@@ -19,7 +28,7 @@ export const navigation = [
         offset: -100
     },
     {
-        title: "Costumer Success",
+        title: "Case Studies",
         url: "CS",
         offset: -100
     },
@@ -30,7 +39,6 @@ export const navigation = [
     },
 
 ]
-
 
 export const services = [
   {
@@ -76,7 +84,6 @@ export const services = [
     icon: <FaChartPie />,
   },
 ];
-
 
 export const testimonials = [
   {
@@ -139,22 +146,22 @@ export const faqs = [
 export const socials = [
   {
     id: "0",
-    icon: "/assets/socials/facebook.svg",
+    icon: <FaFacebook size={20}/>,
     url: ""
   },
   {
     id: "1",
-    icon: "/assets/socials/twitter.svg",
+    icon: <FaTwitter size={20}/>,
     url: ""
   },
   {
     id: "2",
-    icon: "/assets/socials/instagram.svg",
+    icon: <FaInstagram size={20}/>,
     url: ""
   },
   {
     id: "3",
-    icon: "/assets/socials/linkedin.svg",
+    icon: <FaLinkedin size={20}/>,
     url: ""
   }
 ]
