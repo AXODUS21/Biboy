@@ -36,7 +36,7 @@ const Navbar = () => {
         </div>
 
         <div className="">
-            <CustomButton title={"Contact Us"}/>
+            <CustomButton title={"Contact Us"} location={"book"}/>
         </div>
     </nav>
   )

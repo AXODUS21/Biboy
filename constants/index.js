@@ -20,7 +20,7 @@ export const navigation = [
     {
         title: "Strategy",
         url: "strategy",
-        offset: -100
+        offset: -50
     },
     {
         title: "Testimonials",

@@ -27,7 +27,7 @@ const CaseStudies = () => {
               key={caseStudy.title}
               className="grid grid-cols-2 max-sm:grid-cols-1 mb-10 px-10"
             >
-              <div className="relative h-[600px] bg-black mr-8 rounded-xl">
+              <div className="relative h-[600px] bg-black mr-8 max-sm:mr-0 max-sm:mb-8 rounded-xl">
                 <Image
                   src={caseStudy.image}
                   alt={caseStudy.title}
@@ -77,7 +77,7 @@ const CaseStudies = () => {
                   </div>
                 </div>
 
-                <CustomButton title={"Book A Call"} chevron={true} />
+                <CustomButton title={"Book A Call"} location={"book"} chevron={true} />
               </div>
             </div>
           ))}
