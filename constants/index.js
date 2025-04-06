@@ -112,6 +112,43 @@ export const testimonials = [
   },
 ];
 
+export const caseStudies = [
+  {
+    title: "Global Tech Rebranding Campaign",
+    industry: "Technology",
+    image: "",
+    challenge:
+      "A leading tech company was struggling with an outdated brand image that didn't reflect their innovative solutions, resulting in declining market share and difficulty attracting new customers.",
+    solution:
+      "We developed a comprehensive rebranding strategy that included a new visual identity, messaging framework, and digital presence. This was supported by targeted content marketing and PR campaigns.",
+    results:
+      "The rebranding led to a 45% increase in website traffic, 60% growth in qualified leads, and a 25% increase in conversion rates within the first six months.",
+    metrics: [
+      { value: "+45%", label: "Website Traffic" },
+      { value: "+60%", label: "Qualified Leads" },
+      { value: "+25%", label: "Conversion Rate" },
+      { value: "18M+", label: "Social Impressions" },
+    ],
+  },
+  {
+    title: "E-commerce Sales Acceleration",
+    industry: "Retail",
+    image: "",
+    challenge:
+      "An established retail brand was struggling to transition to e-commerce, with poor online visibility and conversion rates significantly below industry standards.",
+    solution:
+      "We implemented a multi-channel digital marketing strategy, optimized their e-commerce platform for conversions, and created targeted social media campaigns to reach their ideal customers.",
+    results:
+      "Within three months, online sales increased by 120%, cart abandonment decreased by 35%, and customer acquisition costs were reduced by 40%.",
+    metrics: [
+      { value: "+120%", label: "Online Sales" },
+      { value: "-35%", label: "Cart Abandonment" },
+      { value: "-40%", label: "Acquisition Cost" },
+      { value: "+85%", label: "Mobile Conversions" },
+    ],
+  },
+];
+
 export const faqs = [
   {
     id: "1",

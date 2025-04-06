@@ -27,7 +27,7 @@ const Hero = () => {
           </p>
 
           <div className="flex gap-5 ">
-            <CustomButton title={"Get Started"} customStyle={"px-8"} />
+            <CustomButton title={"Get Started"} chevron={true} customStyle={"px-8"} />
             <CustomButton title={"Our Services"} customStyle={"!bg-stone-900 border-[0.2px] border-gray-600 py-4 px-8 "} />
           </div>
         </div>
