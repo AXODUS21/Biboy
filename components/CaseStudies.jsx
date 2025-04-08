@@ -31,12 +31,12 @@ const CaseStudies = () => {
                 <Image
                   src={caseStudy.image}
                   alt={caseStudy.title}
-                  className="h-full rounded-xl object-fill"
-                  width={800}
-                  height={800}
+                  className="h-full rounded-xl object-cover"
+                  width={700}
+                  height={700}
                 />
                 <div className="absolute bottom-4 left-5">
-                  <h3 className="text-accent bg-accent/40 w-fit text-lg px-2 rounded-md mb-2">
+                  <h3 className="text-accent bg-white w-fit text-lg px-2 rounded-md mb-2">
                     {caseStudy.industry}
                   </h3>
                   <h2 className="text-white text-4xl font-semibold">
@@ -50,7 +50,7 @@ const CaseStudies = () => {
                   {caseStudy.metrics.map((metric) => (
                     <div
                       key={metric.label}
-                      className="bg-white p-4 rounded-xl shadow-lg"
+                      className="bg-white p-4 rounded-xl shadow-lg hover_raise"
                     >
                       <h2 className="text-3xl font-bold text-primary">
                         {metric.value}
