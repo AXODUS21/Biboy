@@ -31,7 +31,9 @@ const CaseStudies = () => {
                 <Image
                   src={caseStudy.image}
                   alt={caseStudy.title}
-                  className="h-full"
+                  className="h-full rounded-xl object-fill"
+                  width={800}
+                  height={800}
                 />
                 <div className="absolute bottom-4 left-5">
                   <h3 className="text-accent bg-accent/40 w-fit text-lg px-2 rounded-md mb-2">

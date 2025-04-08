@@ -22,4 +22,3 @@ body {
 .hover_raise{
   @apply transition-all hover:border-red-600 hover:shadow-md hover:-translate-y-3.5 border-gray-200
 }
-

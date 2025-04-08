@@ -116,7 +116,7 @@ export const caseStudies = [
   {
     title: "Global Tech Rebranding Campaign",
     industry: "Technology",
-    image: "",
+    image: "/assets/companyImg.png",
     challenge:
       "A leading tech company was struggling with an outdated brand image that didn't reflect their innovative solutions, resulting in declining market share and difficulty attracting new customers.",
     solution:
@@ -133,7 +133,7 @@ export const caseStudies = [
   {
     title: "E-commerce Sales Acceleration",
     industry: "Retail",
-    image: "",
+    image: "/assets/companyImg.png",
     challenge:
       "An established retail brand was struggling to transition to e-commerce, with poor online visibility and conversion rates significantly below industry standards.",
     solution:
