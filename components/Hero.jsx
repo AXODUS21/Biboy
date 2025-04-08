@@ -20,7 +20,7 @@ const Hero = () => {
             Elevate Your <span className="text-primary">Brand</span> To New Heights
           </h1>
           <p className="text-base sm:text-lg mb-5 text-center md:text-left">
-            Strategic marketing solutions that drive growth engagement, and results for your business.
+            Strategic marketing solutions that drive growth, engagement, and results for your business.
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4 sm:gap-5">
