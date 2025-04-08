@@ -24,7 +24,7 @@ const Testimonials = () => {
           {testimonials.map((testimonial) => (
             <div
               key={testimonial.id}
-              className="rounded-lg bg-white p-6 shadow-sm"
+              className="rounded-lg bg-white p-6 shadow-sm hover_raise"
             >
               <div className="mb-4 flex">
                 {[...Array(5)].map((_, i) => (

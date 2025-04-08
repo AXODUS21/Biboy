@@ -30,7 +30,7 @@ const FAQ = () => {
         </div>
 
         <div className="flex justify-center">
-          <div className="grid gap-10 px-10 w-2/3">
+          <div className="grid gap-10 px-10 lg:w-2/3">
             {faqs.map((faq) => {
               const active = activeId === faq.id;
 
