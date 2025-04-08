@@ -18,7 +18,7 @@ const Navbar = () => {
             />
         </Link>
 
-        <div className="flex gap-8 font-semibold">
+        <div className="flex gap-8 font-semibold max-sm:hidden">
             {navigation.map((nav) => (
                 <Link
                     key={nav.title}
