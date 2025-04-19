@@ -79,7 +79,7 @@ const CaseStudies = () => {
                   </div>
                 </div>
 
-                <CustomButton title={"Book A Call"} location={"book"} chevron={true} />
+                <CustomButton title={"Make An Appointment"} location={"book"} chevron={true} />
               </div>
             </div>
           ))}

@@ -136,37 +136,37 @@ export const testimonials = [
 
 export const caseStudies = [
   {
-    title: "Global Tech Rebranding Campaign",
-    industry: "Technology",
-    image: "/assets/companyImg.png",
+    title: "Mitsubishi Montero Sport",
+    industry: "Transmission",
+    image: "/assets/cs (1).png",
     challenge:
-      "A leading tech company was struggling with an outdated brand image that didn't reflect their innovative solutions, resulting in declining market share and difficulty attracting new customers.",
+      "A local auto repair shop known for friendly service was struggling to communicate its professionalism and modern capabilities, especially for newer vehicles like SUVs. Most marketing materials didn’t reflect the welcoming, trustworthy nature of their staff.",
     solution:
-      "We developed a comprehensive rebranding strategy that included a new visual identity, messaging framework, and digital presence. This was supported by targeted content marketing and PR campaigns.",
+      "We captured real moments of customer engagement and expert work—like this shot of a technician proudly handling a part for a Mitsubishi SUV. This human-centered visual became the face of their refreshed brand story.",
     results:
-      "The rebranding led to a 45% increase in website traffic, 60% growth in qualified leads, and a 25% increase in conversion rates within the first six months.",
+      "This new approach helped boost customer trust, resulting in higher walk-in inquiries and improved customer satisfaction scores.",
     metrics: [
-      { value: "+45%", label: "Website Traffic" },
-      { value: "+60%", label: "Qualified Leads" },
-      { value: "+25%", label: "Conversion Rate" },
-      { value: "18M+", label: "Social Impressions" },
+      { value: "+48%", label: "Customer Walk-Ins" },
+      { value: "+36%", label: "Service Bookings" },
+      { value: "+62%", label: "Online Reviews" },
+      { value: "12M+", label: "Local Reach on Social" },
     ],
   },
   {
-    title: "E-commerce Sales Acceleration",
-    industry: "Retail",
-    image: "/assets/companyImg.png",
+    title: "Diesel 4N15 engine",
+    industry: "Repair",
+    image: "/assets/cs (2).png",
     challenge:
-      "An established retail brand was struggling to transition to e-commerce, with poor online visibility and conversion rates significantly below industry standards.",
+      "Despite specializing in complex engine rebuilds, the shop’s technical reputation wasn’t well known beyond word of mouth. They lacked visual content that showed the precision and skill required for such work.",
     solution:
-      "We implemented a multi-channel digital marketing strategy, optimized their e-commerce platform for conversions, and created targeted social media campaigns to reach their ideal customers.",
+      "We launched a visual storytelling campaign showing mechanics in action—like this detailed engine rebuild scene. These behind-the-scenes shots educated viewers and built authority.",
     results:
-      "Within three months, online sales increased by 120%, cart abandonment decreased by 35%, and customer acquisition costs were reduced by 40%.",
+      "The campaign boosted technical credibility and attracted more high-value engine repair jobs.",
     metrics: [
-      { value: "+120%", label: "Online Sales" },
-      { value: "-35%", label: "Cart Abandonment" },
-      { value: "-40%", label: "Acquisition Cost" },
-      { value: "+85%", label: "Mobile Conversions" },
+      { value: "+65%", label: "Engine Repair Inquiries" },
+      { value: "+50%", label: "Workshop Referrals" },
+      { value: "+30%", label: "Avg. Revenue per Job" },
+      { value: "18M+", label: "Technical Content Views" },
     ],
   },
 ];

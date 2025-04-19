@@ -73,7 +73,7 @@ const Hero = () => {
                     </div>
 
                     {/* Floating stats */}
-                    <div className="absolute -right-6 top-6 rounded-lg bg-white/10 backdrop-blur-md px-8 py-2 text-white text-sm border border-white/20">
+                    {/* <div className="absolute -right-6 top-6 rounded-lg bg-white/10 backdrop-blur-md px-8 py-2 text-white text-sm border border-white/20">
                       <div className="font-bold">+200%</div>
                       <div className="text-xs text-gray-300">Engagement</div>
                     </div>
@@ -81,7 +81,7 @@ const Hero = () => {
                     <div className="absolute -left-6 bottom-16 rounded-lg bg-white/10 backdrop-blur-md px-8 py-2 text-white text-sm border border-white/20">
                       <div className="font-bold">+150%</div>
                       <div className="text-xs text-gray-300">Conversions</div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

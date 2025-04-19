@@ -10,10 +10,11 @@ import {
   FaPhone 
 } from "react-icons/fa";
 import CustomButton from "./CustomButton";
+import { Element } from "@node_modules/react-scroll/modules";
 
 export default function Footer() {
   return (
-    <section id="contact" className="py-20 px-10">
+    <Element name="book" className="py-20 px-10">
       <div className="container">
         <div className="grid md:grid-cols-2 gap-12">
           <div className="space-y-6">
@@ -45,7 +46,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <h3 className="font-bold">Phone Number</h3>
-                  <p className="text-zinc-400">(555) 123-4567</p>
+                  <p className="text-zinc-400">0955 188 2021</p>
                 </div>
               </div>
 
@@ -139,6 +140,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-    </section>
+    </Element>
   );
 }
