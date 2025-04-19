@@ -1,25 +1,144 @@
-import { socials } from "@constants";
-import Image from "@node_modules/next/image";
-import React from "react";
+"use client"
+import Link from "next/link";
+import { 
+  FaClock, 
+  FaFacebookF, 
+  FaInstagram, 
+  FaTwitter, 
+  FaEnvelope, 
+  FaMapMarkerAlt, 
+  FaPhone 
+} from "react-icons/fa";
+import CustomButton from "./CustomButton";
 
-const Footer = () => {
-  const year = new Date().getFullYear();
-
+export default function Footer() {
   return (
-    <div className="lg:flex grid max-md:gap-2 max-md:text-center justify-center lg:justify-between border-t-2 py-5 items-center px-5 text-sm font-semibold">
-      <div className="">
-        ©{year} XellTech <br className="max-md:hidden" /> All rights reserved
-      </div>
-      <div className="flex justify-center gap-4">
-        {socials.map((social) => (
-          <a href={social.url} className="" key={social.id}>
-            {social.icon}
-          </a>
-        ))}
-      </div>
-      <div className="">VAT: 12345678</div>
-    </div>
-  );
-};
+    <section id="contact" className="py-20 px-10">
+      <div className="container">
+        <div className="grid md:grid-cols-2 gap-12">
+          <div className="space-y-6">
+            <div className="inline-block bg-[#7A000D] hover:bg-[#5A000A] px-3 py-1 text-white rounded-md">
+              Contact Us
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold">Get In Touch</h2>
+            <p className="text-zinc-400 max-w-md">
+              Have questions or ready to schedule your service? Contact us today
+              and our friendly team will be happy to assist you.
+            </p>
 
-export default Footer;
+            <div className="space-y-4 pt-4">
+              <div className="flex items-start gap-4">
+                <div className="bg-zinc-800 p-3 rounded-lg">
+                  <FaMapMarkerAlt className="h-5 w-5 text-[#7A000D]" />
+                </div>
+                <div>
+                  <h3 className="font-bold">Our Location</h3>
+                  <p className="text-zinc-400">
+                    123 Auto Repair Lane, Mechanicsville, CA 90210
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="bg-zinc-800 p-3 rounded-lg">
+                  <FaPhone className="h-5 w-5 text-[#7A000D]" />
+                </div>
+                <div>
+                  <h3 className="font-bold">Phone Number</h3>
+                  <p className="text-zinc-400">(555) 123-4567</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="bg-zinc-800 p-3 rounded-lg">
+                  <FaEnvelope className="h-5 w-5 text-[#7A000D]" />
+                </div>
+                <div>
+                  <h3 className="font-bold">Email Address</h3>
+                  <p className="text-zinc-400">service@turbomechanics.com</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="bg-zinc-800 p-3 rounded-lg">
+                  <FaClock className="h-5 w-5 text-[#7A000D]" />
+                </div>
+                <div>
+                  <h3 className="font-bold">Business Hours</h3>
+                  <p className="text-zinc-400">
+                    Monday - Friday: 8:00 AM - 6:00 PM
+                  </p>
+                  <p className="text-zinc-400">Saturday: 8:00 AM - 2:00 PM</p>
+                  <p className="text-zinc-400">Sunday: Closed</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="pt-4 flex gap-4">
+              <Link
+                href="#"
+                className="bg-zinc-800 p-3 rounded-full hover:bg-zinc-700 transition-colors"
+              >
+                <FaFacebookF className="h-5 w-5 text-white" />
+              </Link>
+              <Link
+                href="#"
+                className="bg-zinc-800 p-3 rounded-full hover:bg-zinc-700 transition-colors"
+              >
+                <FaInstagram className="h-5 w-5 text-white" />
+              </Link>
+              <Link
+                href="#"
+                className="bg-zinc-800 p-3 rounded-full hover:bg-zinc-700 transition-colors"
+              >
+                <FaTwitter className="h-5 w-5 text-white" />
+              </Link>
+            </div>
+          </div>
+
+          <div className="bg-zinc-900 p-8 rounded-2xl border border-zinc-800">
+            <h3 className="text-xl font-bold mb-6 text-white">Send Us a Message</h3>
+            <form className="space-y-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div className="space-y-2">
+                  <label className="text-sm text-zinc-400">Your Name</label>
+                  <input
+                    type="text"
+                    className="w-full bg-zinc-800 border border-zinc-700 rounded-lg p-3 text-white"
+                    placeholder="John Doe"
+                  />
+                </div>
+                <div className="space-y-2">
+                  <label className="text-sm text-zinc-400">Your Email</label>
+                  <input
+                    type="email"
+                    className="w-full bg-zinc-800 border border-zinc-700 rounded-lg p-3 text-white"
+                    placeholder="john@example.com"
+                  />
+                </div>
+              </div>
+              <div className="space-y-2">
+                <label className="text-sm text-zinc-400">Subject</label>
+                <input
+                  type="text"
+                  className="w-full bg-zinc-800 border border-zinc-700 rounded-lg p-3 text-white"
+                  placeholder="How can we help you?"
+                />
+              </div>
+              <div className="space-y-2">
+                <label className="text-sm text-zinc-400">Message</label>
+                <textarea
+                  className="w-full bg-zinc-800 border border-zinc-700 rounded-lg p-3 text-white min-h-[120px]"
+                  placeholder="Tell us about your vehicle and service needs..."
+                ></textarea>
+              </div>
+              <CustomButton className="w-full bg-[#7A000D] hover:bg-[#5A000A]">
+                Send Message
+              </CustomButton>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

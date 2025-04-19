@@ -8,7 +8,15 @@ import {
   FaFacebook,
   FaTwitter,
   FaInstagram,
-  FaLinkedin
+  FaLinkedin,
+  FaOilCan,
+  FaWrench,
+  FaTools,
+  FaStethoscope,
+  FaClipboardList,
+  FaCar,
+  FaCarSide,
+  FaBrakeSystem
 } from "react-icons/fa";
 
 export const navigation = [
@@ -40,50 +48,64 @@ export const navigation = [
 
 ]
 
-export const services = [
-  {
-    id: 0,
-    title: "Digital Marketing",
-    description:
-      "Comprehensive digital marketing strategies to boost your online presence and drive conversions.",
-    icon: <FaBullhorn />,
-  },
-  {
-    id: 1,
-    title: "Brand Strategy",
-    description:
-      "Develop a compelling brand identity that resonates with your target audience and sets you apart.",
-    icon: <FaChartLine />,
-  },
-  {
-    id: 2,
-    title: "Content Creation",
-    description:
-      "Engaging, high-quality content that tells your story and connects with your audience.",
-    icon: <FaPenNib />,
-  },
-  {
-    id: 3,
-    title: "Social Media Management",
-    description:
-      "Strategic social media campaigns that build community and drive engagement with your brand.",
-    icon: <FaComments />,
-  },
-  {
-    id: 4,
-    title: "SEO Optimization",
-    description:
-      "Improve your search engine rankings and drive organic traffic to your website.",
-    icon: <FaSearch />,
-  },
-  {
-    id: 5,
-    title: "Analytics & Reporting",
-    description:
-      "Data-driven insights to measure performance and optimize your marketing strategies.",
-    icon: <FaChartPie />,
-  },
-];
+  export const services = [
+    {
+      id: 0,
+      title: "Change Oil",
+      description:
+        "Professional oil change service to keep your engine running smoothly and efficiently. We use high-quality oils and filters for optimal performance.",
+      icon: <FaOilCan />,
+    },
+    {
+      id: 1,
+      title: "Service & Repair",
+      description:
+        "Comprehensive vehicle service and repair solutions. Our expert technicians handle everything from routine maintenance to complex repairs.",
+      icon: <FaWrench />,
+    },
+    {
+      id: 2,
+      title: "Overhaul",
+      description:
+        "Complete engine and transmission overhaul services. We rebuild and restore your vehicle's major components to ensure peak performance.",
+      icon: <FaTools />,
+    },
+    {
+      id: 3,
+      title: "Scan",
+      description:
+        "Advanced diagnostic scanning services to identify and resolve any issues with your vehicle's computer systems and sensors.",
+      icon: <FaStethoscope />,
+    },
+    {
+      id: 4,
+      title: "Preventive Maintenance Service",
+      description:
+        "Regular maintenance programs to prevent future problems and extend your vehicle's lifespan. Includes comprehensive inspections and service.",
+      icon: <FaClipboardList />,
+    },
+    {
+      id: 5,
+      title: "Check up",
+      description:
+        "Thorough vehicle inspection and health check. We examine all major systems to ensure your car is running safely and efficiently.",
+      icon: <FaCar />,
+    },
+    {
+      id: 6,
+      title: "Underchassis",
+      description:
+        "Complete underchassis inspection and maintenance. We check and service suspension, steering, and other critical components beneath your vehicle.",
+      icon: <FaCarSide />,
+    },
+    {
+      id: 7,
+      title: "Clean & adjust breaks",
+      description:
+        "Professional brake system maintenance including cleaning, adjustment, and replacement of brake components for optimal stopping power.",
+      icon: <FaTools />,
+    },
+  ];
 
 export const testimonials = [
   {

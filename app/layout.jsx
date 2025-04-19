@@ -2,7 +2,7 @@ import Navbar from "@components/Navbar";
 import "./globals.css"
 
 export const metadata = {
-  title: "SRI",
+  title: "Biboy Auto Care",
   description: "",
 };
 
