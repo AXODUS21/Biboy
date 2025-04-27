@@ -26,16 +26,6 @@ export const navigation = [
         offset: -80
     },
     {
-        title: "Strategy",
-        url: "strategy",
-        offset: -50
-    },
-    {
-        title: "Testimonials",
-        url: "testimonials",
-        offset: -100
-    },
-    {
         title: "Case Studies",
         url: "CS",
         offset: -100
@@ -44,6 +34,11 @@ export const navigation = [
         title: "FAQ",
         url: "FAQ",
         offset: -100
+    },
+    {
+        title: "Contacts",
+        url: "book",
+        offset: -80
     },
 
 ]

@@ -133,9 +133,7 @@ export default function Footer() {
                   placeholder="Tell us about your vehicle and service needs..."
                 ></textarea>
               </div>
-              <CustomButton className="w-full bg-[#7A000D] hover:bg-[#5A000A]">
-                Send Message
-              </CustomButton>
+              <CustomButton className="w-full bg-[#7A000D] hover:bg-[#5A000A]" title={"Send A Message"}/>
             </form>
           </div>
         </div>
