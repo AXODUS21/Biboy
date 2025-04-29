@@ -40,7 +40,6 @@ export const navigation = [
         url: "book",
         offset: -80
     },
-
 ]
 
   export const services = [
@@ -100,7 +99,7 @@ export const navigation = [
         "Professional brake system maintenance including cleaning, adjustment, and replacement of brake components for optimal stopping power.",
       icon: <FaTools />,
     },
-  ];
+];
 
 export const testimonials = [
   {
@@ -168,32 +167,40 @@ export const caseStudies = [
 
 export const faqs = [
   {
+    id: "0",
+    question: "How long does a typical service appointment take?",
+    answer:
+      "Service times vary depending on the type of service needed. Basic maintenance like oil changes typically take 30-60 minutes. More complex repairs may take several hours or even a full day. We always provide an estimated completion time when you drop off your vehicle, and we'll keep you updated if anything changes.",
+  },
+  {
     id: "1",
-    question: "How fast am I gonna see success?",
-    answer: "like super super fast ;)",
+    question: "Do you offer warranties on your repairs?",
+    answer:
+      "Yes, we stand behind our work. We offer a 24-month/24,000-mile warranty on parts and labor for most repairs. Some specialized repairs or parts may have different warranty terms, which we'll discuss with you before beginning any work.",
   },
   {
     id: "2",
-    question: "Can you help me with marketing?",
+    question: "Can I drop off my car before your opening hours?",
     answer:
-      "yes, we can help you with marketing, but we are not a marketing agency",
+      "Yes, we offer early drop-off service. Simply let us know in advance, and we'll arrange for you to leave your keys in our secure drop box. You'll need to complete a short form with your contact information and service needs.",
   },
   {
     id: "3",
-    question: "What is your pricing?",
+    question: "Do you provide loaner vehicles or shuttle service?",
     answer:
-      "we are a freelance agency, so we have a flat rate of $200 per hour",
+      "Yes, we offer a complimentary shuttle service within a 10-mile radius of our shop. For repairs requiring more than one day, we have a limited number of loaner vehicles available on a first-come, first-served basis. Please ask about availability when scheduling your appointment.",
   },
   {
     id: "4",
-    question: "Can you help me with my sales?",
-    answer: "yes, we can help you with sales, but we are not a sales agency",
+    question: "How do I know if my check engine light is serious?",
+    answer:
+      "A check engine light can indicate minor issues like a loose gas cap or more serious problems with your engine or emissions system. We recommend having it diagnosed promptly. We offer free check engine light scans that can identify the specific trouble code, allowing us to advise you on the urgency and estimated cost of repairs.",
   },
   {
     id: "5",
-    question: "What is your product?",
+    question: "Do I need an appointment or can I just drop in?",
     answer:
-      "we are a product development agency, so we help you develop products",
+      "While we do accept walk-ins when possible, we strongly recommend scheduling an appointment to ensure prompt service. Appointments receive priority, and scheduling allows us to have the right technician and parts available for your specific needs.",
   },
 ];
 

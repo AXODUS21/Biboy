@@ -39,7 +39,7 @@ const FAQ = () => {
                   key={faq.id}
                   onClick={() => handleActiveId(faq.id)}
                   className={`w-full border-b-2 overflow-hidden relative transition-all duration-500 cursor-pointer ${
-                    active ? "h-20 max-sm:h-28" : "h-10"
+                    active ? "h-32 max-sm:h-28" : "h-10"
                   }`}
                 >
                   <div className="text-xl font-semibold flex justify-between items-center mb-5">

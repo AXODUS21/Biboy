@@ -1,5 +1,6 @@
 import CaseStudies from '@components/CaseStudies'
 import Contacts from '@components/Contacts'
+import CTA from '@components/CTA'
 import FAQ from '@components/FAQ'
 import Footer from '@components/Footer'
 import Hero from '@components/Hero'
@@ -20,6 +21,7 @@ const Main = () => {
       <FAQ/>
       {/* <Contacts/> */}
       <Footer/>
+      <CTA/>
     </div>
   )
 }
